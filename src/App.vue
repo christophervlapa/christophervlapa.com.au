@@ -84,7 +84,7 @@ export default {
       fixed: false,
       items: [{
         icon: 'bubble_chart',
-        title: 'Inspire'
+        title: 'TEST'
       }],
       miniVariant: false,
       right: true,
