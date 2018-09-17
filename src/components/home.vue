@@ -3,7 +3,7 @@
       <v-layout row wrap>
         <h1>WORKS</h1>
         <v-flex xs12 v-for="work in worksData">
-          <v-card>
+          <v-card class="mb-3">
             <v-img :src="work.indexWork"></v-img>
             <v-card-title>
               <div>

@@ -10,15 +10,43 @@
       app
     >
       <v-list>
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>home</v-icon>
+        </v-list-tile-action>
+        <v-list-tile-title>HOME</v-list-tile-title>
+      </v-list-tile>
+
+      <v-list-group
+        value="true"
+        no-action
+      >
+        <v-list-tile slot="activator">
+          <v-list-tile-title>WORKS</v-list-tile-title>
+        </v-list-tile>
+
         <v-list-tile
           value="true"
           v-for="(work, i) in worksData"
           :key="i"
+          @click=""
         >
           <v-list-tile-content>
             <v-list-tile-title v-text="work.seriesTitle"></v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
+
+      </v-list-group>
+
+      <v-list-tile
+      @click="">
+        <v-list-tile-title>BIOGRAPHY / CV</v-list-tile-title>
+      </v-list-tile>
+
+      <v-list-tile
+      @click="">
+        <v-list-tile-title>CONTACT</v-list-tile-title>
+      </v-list-tile>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar
