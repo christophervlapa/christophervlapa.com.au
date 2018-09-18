@@ -5,7 +5,7 @@
       :mini-variant="miniVariant"
       :clipped="clipped"
       v-model="drawer"
-      enable-resize-watcher
+      disable-resize-watcher
       fixed
       app
     >
@@ -18,7 +18,6 @@
       </v-list-tile>
 
       <v-list-group
-        value="true"
         no-action
       >
         <v-list-tile slot="activator">
@@ -55,7 +54,6 @@
     >
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>    
       <img src="@/assets/signature.svg" class="headerSignature" alt="christopher v lapa signature" viewBox="0 0 100 100" preserveAspectRatio>
-      <v-spacer></v-spacer>
       
     </v-toolbar>
     <v-content>
@@ -70,7 +68,6 @@
 
 <script>
 import home from './components/home'
-import axios from 'axios'
 import works from './assets/works.json'
 
 export default {
@@ -81,7 +78,7 @@ export default {
   data () {
     return {
       clipped: false,
-      drawer: true,
+      drawer: false,
       fixed: false,
       worksData: works,
       miniVariant: false,
@@ -95,5 +92,7 @@ export default {
 <style type="text/css">
   .headerSignature {
     height: 80%;
+    margin-left: -42px;
+    flex: 1;
   }
 </style>

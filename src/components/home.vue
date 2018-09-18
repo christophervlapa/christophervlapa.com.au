@@ -1,10 +1,10 @@
 <template>
-  <v-container fluid>
+  <v-container>
       <v-layout row wrap>
         <h1>WORKS</h1>
         <v-flex xs12 v-for="work in worksData">
-          <v-card class="mb-3">
-            <v-img :src="work.indexWork"></v-img>
+          <v-card flat class="index-work-card mb-3">
+            <img :src="getImageUrl(work.workRoot,work.indexWork)" class="home-card-image"/>
             <v-card-title>
               <div>
               <h3 class="headline mb-0">{{work.seriesTitle}}</h3>
@@ -30,7 +30,13 @@
     },
     filters: {
       dateFormat: (date) => {
-        return moment(date).format('MMMM Do YYYY');
+        return moment(date).format('MMMM YYYY');
+      }
+    },
+    methods: {
+      getImageUrl(imagePath,imageName){
+        return require('../assets/works/' + imagePath + '/' + imageName);
+
       }
     }
   }
@@ -40,6 +46,17 @@
 <style scoped>
 .more {
   word-break: break-all;
+}
+
+.index-work-card {
+  border: 1px solid #F5F5F5;
+}
+.home-card-image {
+  width: 100%;
+}
+
+.italic {
+  font-style: italic;
 }
 </style>
 
