@@ -11,10 +11,14 @@
     >
       <v-list>
       <v-list-tile>
-        <v-list-tile-action>
-          <v-icon>home</v-icon>
-        </v-list-tile-action>
-        <v-list-tile-title>HOME</v-list-tile-title>
+        <router-link to="/">
+          <v-list-tile-action>
+            
+            <v-icon>home</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-title>HOME</v-list-tile-title>
+        </router-link>
+
       </v-list-tile>
 
       <v-list-group
@@ -57,7 +61,7 @@
       
     </v-toolbar>
     <v-content>
-      <home :worksData="worksData"></home>
+      <router-view/>
     </v-content>
   
     <v-footer :fixed="fixed" app>

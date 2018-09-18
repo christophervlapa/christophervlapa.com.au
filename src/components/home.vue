@@ -21,10 +21,11 @@
 
 <script>
   import moment from 'moment'
+import works from '../assets/works.json'
 
   export default {
     name: 'home',
-    props: ['worksData'],
+    props: { worksData:works },
     created: function () {
       console.log('DATA ',this.worksData);
     },
