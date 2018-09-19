@@ -1,17 +1,32 @@
 <template>
   <v-container>
       <v-layout row wrap>
-        <h1>SINGLE WORK</h1>
-        <v-flex xs12 v-for="work in this.worksData">
-          <v-card flat class="single-work-card mb-3">
-            <img :src="getImageUrl(work.workRoot,work.indexWork)" class="home-card-image"/>
+        <v-flex xs12 v-for="workData in workData()">test
+          <h1>{{workData.seriesTitle}}</h1>
+          <div class="series-date">{{workData.date | dateFormat}}</div>
+          <div class="series-notes" v-html="workData.seriesNotes"></div>
+          <h2>Artist Statement</h2>
+          <div class="artists-statement-content" v-html="workData.artistsStatement"></div>
+          <v-card flat class="index-work-card mb-3" v-for="work in workData.works">
+            <img :src="getImageUrl(workData.workRoot,work.image)" class="single-work-card-image"/>
             <v-card-title>
-              <div>
-              <h3 class="headline mb-0">{{work.seriesTitle}}</h3>
-              <div class="date">{{work.date | dateFormat}}</div>
-              <div class="medium">{{work.medium}}</div>
-              <div class="more" v-if="work.seriesNotes" v-html="work.seriesNotes"></div>
-              </div>
+              <div class="details">
+            <h3 v-if="work.workTitle !== null">
+              <span class="bold">Title:</span> <span class="title-content" v-html="work.workTitle"></span>
+            </h3>
+            <div v-if="work.medium !== null">
+              <span class="bold">Medium:</span> {{work.medium}}
+            </div>
+            <div v-if="work.size">
+              <span class="bold">Size:</span> {{work.size}}
+            </div>
+            <div v-if="work.date">
+              <span class="bold">Date:</span> {{workData.date | dateFormat}}
+            </div>
+            <div v-if="work.details !== null">
+              <span class="bold">Details:</span> <span v-html="work.details"></span>
+            </div>
+          </div>
             </v-card-title>
           </v-card>
         </v-flex>
@@ -25,7 +40,7 @@
   import works from '@/assets/sfw-works.json'
 
   export default {
-    name: 'singleWork',
+    name: 'work',
     data: function() {
       return{
         worksData: works
@@ -42,8 +57,15 @@
     },
     methods: {
       getImageUrl(imagePath,imageName){
-        return require('../assets/works/' + imagePath + '/' + imageName);
+        console.log('../assets/works/' + imagePath + '/' + imageName);
+        return require(imagePath + '/' + imageName);
 
+      },
+      workData(){ 
+        console.log('single works call');
+          return this.worksData.filter(work => {
+            return work.workRoot.indexOf(this.$route.params.workRoot) > -1
+          })
       }
     }
   }
