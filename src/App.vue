@@ -72,7 +72,7 @@
 
 <script>
 import home from './components/home'
-import works from './assets/works.json'
+import works from './assets/sfw-works.json'
 
 export default {
   name: 'App',

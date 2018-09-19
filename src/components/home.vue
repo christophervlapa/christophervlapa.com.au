@@ -21,13 +21,18 @@
 
 <script>
   import moment from 'moment'
-import works from '../assets/works.json'
+  // import axios from 'axios'
+  import works from '@/assets/sfw-works.json'
 
   export default {
     name: 'home',
-    props: { worksData:works },
+    data: function() {
+      return{
+        worksData: works
+      }
+    },
     created: function () {
-      console.log('DATA ',this.worksData);
+      console.log('data: ',worksData)
     },
     filters: {
       dateFormat: (date) => {

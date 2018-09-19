@@ -1,0 +1,581 @@
+[
+	{
+		"seriesTitle": 	"Black Flag Six (2016)",
+		"workRoot": "blackflagsix2016",
+		"indexWork": "blackflagsixmain.jpg",
+		"seriesNotes": "Exhibited at Trocadero Art Space, Footscray Victoria - <a href='http://www.trocaderoartspace.com.au/uncategorized/september-21-october-8-gallery-two-nooky-christopher-v-lapa-black-flag-six-edge-of-darkness/'>http://www.trocaderoartspace.com.au/...christopher-v-lapa-black-flag-six-edge-of-darkness/</a>",
+		"artistsStatement": "<p>The Australian Flag is symbolic of Australian national identity and as such is representative of both our dark colonial past and our unique position within the global landscape as a place of hope for many. The Australian Flag has a history that is as unique, although the design came into popular use in 1901 it was not the national or only flag of Australia until 1954. As such, it has had a brief history as a relatively brief defining symbol for Australian people. In light of its brief history, it is extremely concerning that in recent times it has been co-opted by hate mongers and worse to be used as a prop for cartoonish media broadcasts by our leaders, a backdrop for radicals of all stripes and yet burned by others.</p><p>In contrast to this national symbol, during the protests of the Global Financial Crisis we saw masked protesters known as The Black Bloc: dressed head to toe in black, on the front lines of anger against the financial institutions that led us over the financial brink they expressed the frustration of many with their direct actions. Many of these protesters carried The Black Flag, the international symbol for Anarchy and resistance. Taking this black flag, a powerful symbol from my previous works (Enemies of Everything 2001, Untitled 2010) and applying it to our national symbol a new symbol is generated, one of resistance: resistance against tyranny, against oppression and a preparedness to never surrender until these tyrannies and oppressions are ended. The Black Flag in and of itself the antithesis of the White Flag of surrender.</p><p>By displaying the work as multiple professionally produced flags, a black mirror is raised up to reflect those standing in ever growing numbers behind our leaders who no longer represent an educated public opinion. They offer a reminder that there are those of us that are not willing to accept the continued insults to our home, ourselves, our intelligence and our future. These flags are  devoid of colour: their black is an absence, a negation of the familiar symbols contained in the flag. They become unified and of a single purpose rather than collections of symbols. The richness and uniformity of the black in the professionally produced flags is indicative of the desire for inclusivity and equal representation within Australian. These flags are not meant to represent just one part of Australia, they are made for all who want to see this country progress forward instead of move backward. They are a statement of commitment to this cause and belief in the Australian people, of resistance, of outrage and of hope for the future. </p>",
+		"date": 			"2016-09-01",
+		"works": [
+			{
+				"id":		1,
+				"workTitle": null,
+				"medium":	"Professionally produced, hand sewn flag",
+				"size": 	"1800cm X 900cm",
+				"image":	"blackflagsix2016001.png",
+				"video":	null,
+				"details":	null
+			},
+			{
+				"id":		2,
+				"workTitle": null,
+				"medium":	"Professionally produced, hand sewn flag (detail)",
+				"size": 	null,
+				"image":	"blackflagsix2016002.png",
+				"video":	null,
+				"details":	null
+			},
+			{
+				"id":		3,
+				"workTitle": null,
+				"medium":	"Professionally produced, hand sewn flag (detail)",
+				"size": 	null,
+				"image":	"blackflagsix2016003.png",
+				"video":	null,
+				"details":	null
+			},
+			{
+				"id":		4,
+				"workTitle": null,
+				"medium":	"Professionally produced, hand sewn flags",
+				"size": 	"45cm X 60cm",
+				"image":	"blackflagsix2016installation.png",
+				"video":	null,
+				"details":	"Installation view from Trocadero Art Space, Footscray Melbourne"
+			}
+		]
+	},
+	{
+		"seriesTitle": 	"Use less",
+		"indexWork": "uselessmain.jpg",
+		"workRoot": "useless",
+		"seriesNotes": "<p>Exhibited as part of the group show <span class='italic'>A Billion Billion: A MOP Project at Breezeblock</span> Breezeblock gallery, Sydney<br><a href='http://breezeblock.com.au/index.php/project/a-billion-billion-a-mop-project-at-breezeblock/'>http://breezeblock.com.au/index.php/project/a-billion-billion-a-mop-project-at-breezeblock/</a></p>",
+		"artistsStatement": null,
+		"date": 			"2014-05-01",
+		"works": [
+			{
+				"id":		1,
+				"workTitle": "Use less #1",
+				"medium":	"Digital proof",
+				"size": 	"45cm X 60cm",
+				"image":	"useless001.jpg",
+				"video":	null,
+				"details":	null
+			},
+			{
+				"id":		2,
+				"workTitle": "Use less #2",
+				"medium":	"Digital proof",
+				"size": 	"45cm X 60cm",
+				"image":	"useless002.jpg",
+				"video":	null,
+				"details":	null
+			},
+			{
+				"id":		3,
+				"workTitle": "Use less #1 & #2",
+				"medium":	"Framed digital print on archival paper, set of two",
+				"size": 	null,
+				"image":	"useless_installation.jpg",
+				"video":	null,
+				"details":	"Installation view"
+			}
+		]
+	},
+	{
+		"seriesTitle": 	"Enemies of Everything (2012)",
+		"indexWork": "eoe2012main.jpg",
+		"workRoot": "enemiesofeverything2012",
+		"seriesNotes": "Honours gradute work, Sydney College of the Arts",
+		"artistsStatement": null,
+		"date": 			"2012-11-01",
+		"works": [
+			{
+				"id":		1,
+				"workTitle":	null,
+				"medium":	"Digital print on jockey silk, brass grommets, nylon rope.",
+				"size": 	"400cm X 370cm",
+				"image":	"installation_view003.jpg",
+				"video":	null,
+				"details":	"Installation view"
+			},
+			{
+				"id":		2,
+				"workTitle":	null,
+				"medium":	"Digital print on jockey silk, brass grommets, nylon rope.",
+				"size": 	"400cm X 370cm",
+				"image":	"installation_view002.jpg",
+				"video":	null,
+				"details":	"Installation view"
+			},
+			{
+				"id":		3,
+				"workTitle":	null,
+				"medium":	null,
+				"size": 	null,
+				"image":	"digital_layout.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		4,
+				"workTitle":	null,
+				"medium":	"Digital image",
+				"size": 	null,
+				"image":	"lera_lhs.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			}
+		]
+	},
+	{
+		"seriesTitle": 	"River High, Mountain Deep",
+		"workRoot": "riverhighmountaindeep",
+		"indexWork": "riverhighmountaindeepmain.jpg",
+		"seriesNotes": "Part of group show: Time & Space, Deadspace gallery Sydney",
+		"artistsStatement": null,
+		"date": 			"2012-08-01",
+		"works": [
+			{
+				"id":		1,
+				"workTitle":	"Untitled #1",
+				"medium":	null,
+				"size": 	null,
+				"image":	"riverhighmountaindeep001.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		2,
+				"Title":	"Untitled #2",
+				"medium":	null,
+				"size": 	null,
+				"image":	"riverhighmountaindeep002.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		3,
+				"Title":	null,
+				"medium":	"Digital print, black fabric",
+				"size": 	"Dimentions variable",
+				"image":	"riverhighmountaindeepinstall001.jpg",
+				"video":	null,
+				"details":	"Installation view"
+			}
+		]
+	},
+	{
+		"seriesTitle": 	"Untitled",
+		"workRoot": "untitled2010",
+		"indexWork": "untitled2010main.jpg",
+		"seriesNotes": "Third year graduate show, Sydney Colledge of the Arts",
+		"date": 			"2010-11-01",
+		"artistsStatement": null,
+		"works": [
+			{
+				"id":		1,
+				"workTitle":	"Untitled Portrait",
+				"medium":	"Single chanel video",
+				"size": 	null,
+				"image":	null,
+				"video":	"<iframe src=\"http://player.vimeo.com/video/55837669?color=ffffff\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>",
+				"details":	null
+			},
+			{
+				"id":		2,
+				"workTitle":	"Untitled portrait #1",
+				"medium":	"Digital image",
+				"size": 	null,
+				"image":	"001.jpg",
+				"video":	null,
+				"details":	null
+			},
+			{
+				"id":		3,
+				"workTitle":	"Untitled portrait #2",
+				"medium":	"Digital image",
+				"size": 	null,
+				"image":	"002.jpg",
+				"video":	null,
+				"details":	null
+			},
+			{
+				"id":		4,
+				"workTitle":	"Untitled portrait #4",
+				"medium":	"Digital image",
+				"size": 	null,
+				"image":	"004.jpg",
+				"video":	null,
+				"details":	null
+			},
+			{
+				"id":		5,
+				"workTitle":	"Untitled portrait #6",
+				"medium":	"Digital image",
+				"size": 	null,
+				"image":	"006.jpg",
+				"video":	null,
+				"details":	null
+			},
+			{
+				"id":		6,
+				"workTitle":	"Untitled portrait #8",
+				"medium":	"Digital image",
+				"size": 	null,
+				"image":	"008.jpg",
+				"video":	null,
+				"details":	null
+			},
+			{
+				"id":		7,
+				"workTitle":	"Untitled portrait #19",
+				"medium":	"Digital image",
+				"size": 	null,
+				"image":	"019.jpg",
+				"video":	null,
+				"details":	null
+			}
+		]
+	},
+	{
+		"seriesTitle": 	"Bulli Ute Muster",
+		"workRoot": "bulliutemuster",
+		"indexWork": "bulliutemustermain.jpg",
+		"seriesNotes": "Part of group show: The Grand Opening, Garment Store Gallery Sydney",
+		"date": 			"2010-04-01",
+		"artistsStatement": null,
+		"works": [
+			{
+				"id":		1,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"bulliutemuster001.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		2,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"bulliutemuster002.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		3,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"bulliutemuster003.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		4,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"bulliutemuster004.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		5,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"bulliutemuster005.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		6,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"bulliutemuster006.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		7,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"bulliutemuster007.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		8,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"bulliutemuster008.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			}
+		]
+	},
+	{
+		"seriesTitle": 	"The World Ended and I Liked It",
+		"workRoot": "theworldendedandilikedit",
+		"indexWork": "theworldendedandilikeditmain.jpg",
+		"seriesNotes": "Abattoir Gallery Sydney",
+		"date": 			"2009-08-01",
+		"artistsStatement": null,
+		"works": [
+			{
+				"id":		1,
+				"workTitle":	"I kissed 911 and I liked it",
+				"medium":	null,
+				"size": 	null,
+				"image":	"i-kissed-911.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		2,
+				"workTitle":	"I kissed certain social criteria and I liked it",
+				"medium":	null,
+				"size": 	null,
+				"image":	"i-kissed-certain-social-criteria.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		3,
+				"workTitle":	"I kissed a dead junkie and I liked it. Then I tweeted about it. Twice.",
+				"medium":	null,
+				"size": 	null,
+				"image":	"i-kissed-a-dead-junkie.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		4,
+				"workTitle":	"I kissed Bill Henson and I liked it. The Taste of his cherry chapstick",
+				"medium":	null,
+				"size": 	null,
+				"image":	"i-kissed-bill-henson.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		5,
+				"workTitle":	"Keith Urban saved my life and I liked it",
+				"medium":	null,
+				"size": 	null,
+				"image":	"keith-urban-saved-my-life.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			}
+		]
+	},
+	{
+		"seriesTitle": 	"Falling for Shadows",
+		"workRoot": "fallingforshadows",
+		"indexWork": "fallingforshadowsmain.jpg",
+		"seriesNotes": "Part of group show: Anamnesis, Gaffa Gallery Sydney and Brunswick Street Gallery Melbourne",
+		"date": 			"2010-05-01",
+		"artistsStatement": "<p>Much as the shadow is the loss of light, memory is the loss of events in the physical world. These events become shadows in our minds, twisting and bending to what we remember as fact, and what we have brought into the memory from imagination. The series <span class=\"italics\">Falling for Shadows</span> illustrates the human form using shadows captured by pushing the rigid structure of studio photography until it falters and produces what is usually taken as error, in this case harsh shadows, but in this series becomes the focus of the work.</p><p>The use of the human form in <span class=\"italics\">Falling for Shadows</span> is suggestive of the memories that we have of friends, family or lovers that have taken leave from our lives and left in their place vague shapes and emotions, half remembered and half imagined in our minds. The simplicity of the works allows the viewer to place their own memories within the frame, placing their memories with that of the artist.</p>",
+		"works": [
+			{
+				"id":		1,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"fallingforshadows001.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		2,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"fallingforshadows002.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		3,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"fallingforshadows003.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		4,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"fallingforshadows004.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			}
+		]
+	},
+	{
+		"seriesTitle": 	"Next Big Thing",
+		"workRoot": "nextbigthing",
+		"indexWork": "nextbigthingmain.jpg",
+		"seriesNotes": null,
+		"date": 			"2009-07-01",
+		"artistsStatement": null,
+		"works": [
+			{
+				"id":		2,
+				"workTitle":	"Untitled #1",
+				"medium":	null,
+				"size": 	null,
+				"image":	"nextbigthing001.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		3,
+				"workTitle":	"Untitled #2",
+				"medium":	null,
+				"size": 	null,
+				"image":	"nextbigthing001.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			}
+		]
+	},
+	{
+		"seriesTitle": 	"Outside Looking In",
+		"workRoot": "outsidelookingin",
+		"indexWork": "outsidelookinginmain.jpg",
+		"seriesNotes": null,
+		"date": 			"2009-10-01",
+		"artistsStatement": null,
+		"works": [
+			{
+				"id":		1,
+				"workTitle":	"Untitled #1",
+				"medium":	null,
+				"size": 	null,
+				"image":	"outsidelookingin001.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		2,
+				"workTitle":	"Untitled #1 (Detail)",
+				"medium":	null,
+				"size": 	null,
+				"image":	"outsidelookingin002.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		3,
+				"workTitle":	"Untitled #1 (Detail)",
+				"medium":	null,
+				"size": 	null,
+				"image":	"outsidelookingin003.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		4,
+				"workTitle":	"Untitled #1 (Detail)",
+				"medium":	null,
+				"size": 	null,
+				"image":	"outsidelookingin004.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		5,
+				"workTitle":	"Untitled #1 (Detail)",
+				"medium":	null,
+				"size": 	null,
+				"image":	"outsidelookingin005.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			}
+		]
+	},
+	{
+		"seriesTitle": 	"Village [book]",
+		"workRoot": "village",
+		"indexWork": "villagemain.jpg",
+		"seriesNotes": null,
+		"artistsStatement": null,
+		"date": 			"2009-10-01",
+		"artistsStatement": null,
+		"works": [
+			{
+				"id":		1,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"village001.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		2,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"village002.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		3,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"village003.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		4,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"village004.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		5,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"village005.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		6,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"village006.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		7,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"village007.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			}
+		]
+	}
+]
