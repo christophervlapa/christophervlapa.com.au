@@ -10,15 +10,11 @@
       app
     >
       <v-list>
-      <v-list-tile>
-        <router-link to="/">
+      <v-list-tile @click="" to="/">
           <v-list-tile-action>
-            
             <v-icon>home</v-icon>
           </v-list-tile-action>
           <v-list-tile-title>HOME</v-list-tile-title>
-        </router-link>
-
       </v-list-tile>
 
       <v-list-group
@@ -33,6 +29,7 @@
           v-for="(work, i) in worksData"
           :key="i"
           @click=""
+          :to="'/works/'+work.workRoot"
         >
           <v-list-tile-content>
             <v-list-tile-title v-text="work.seriesTitle"></v-list-tile-title>
@@ -42,8 +39,8 @@
       </v-list-group>
 
       <v-list-tile
-      @click="">
-        <v-list-tile-title>BIOGRAPHY / CV</v-list-tile-title>
+      @click="" to="curriculumvitae">
+        <v-list-tile-title>CURRICULUM VITAE</v-list-tile-title>
       </v-list-tile>
 
       <v-list-tile
@@ -72,6 +69,7 @@
 
 <script>
 import home from './components/home'
+import singleWork from './components/singleWork'
 import works from './assets/sfw-works.json'
 
 export default {

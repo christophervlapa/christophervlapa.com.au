@@ -1,9 +1,9 @@
 <template>
   <v-container>
       <v-layout row wrap>
-        <h1>WORKS</h1>
+        <h1>SINGLE WORK</h1>
         <v-flex xs12 v-for="work in this.worksData">
-          <v-card flat class="index-work-card mb-3">
+          <v-card flat class="single-work-card mb-3">
             <img :src="getImageUrl(work.workRoot,work.indexWork)" class="home-card-image"/>
             <v-card-title>
               <div>
@@ -25,7 +25,7 @@
   import works from '@/assets/sfw-works.json'
 
   export default {
-    name: 'home',
+    name: 'singleWork',
     data: function() {
       return{
         worksData: works
@@ -33,6 +33,7 @@
     },
     created: function () {
       console.log('data: ',this.worksData)
+      console.log('data: ',this.$route.params.workRoot)
     },
     filters: {
       dateFormat: (date) => {
