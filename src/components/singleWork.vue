@@ -57,8 +57,8 @@
     },
     methods: {
       getImageUrl(imagePath,imageName){
-        console.log('../assets/works/' + imagePath + '/' + imageName);
-        return require(imagePath + '/' + imageName);
+        console.log(`../assets/works/` + imagePath + '/' + imageName);
+        return require('../assets/works/' + imagePath + '/' + imageName);
 
       },
       workData(){ 

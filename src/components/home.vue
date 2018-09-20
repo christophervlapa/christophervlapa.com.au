@@ -3,7 +3,7 @@
       <v-layout row wrap>
         <h1>WORKS</h1>
         <v-flex xs12 v-for="work in this.worksData">
-          <v-card flat class="index-work-card mb-3">
+          <v-card flat class="index-work-card mb-3" @click="" :to="'works/'+work.workRoot">
             <img :src="getImageUrl(work.workRoot,work.indexWork)" class="home-card-image"/>
             <v-card-title>
               <div>
