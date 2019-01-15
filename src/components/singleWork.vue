@@ -1,30 +1,32 @@
 <template>
   <v-container>
       <v-layout row wrap>
-        <v-flex xs12 v-for="workData in workData()">test
+        <v-flex xs12 v-for="workData in workData()">
           <h1>{{workData.seriesTitle}}</h1>
           <div class="series-date">{{workData.date | dateFormat}}</div>
           <div class="series-notes" v-html="workData.seriesNotes"></div>
-          <h2>Artist Statement</h2>
+          <br>
+          <h2 v-if="workData.artistsStatement">Artist Statement</h2>
           <div class="artists-statement-content" v-html="workData.artistsStatement"></div>
           <v-card flat class="index-work-card mb-3" v-for="work in workData.works">
-            <img :src="getImageUrl(workData.workRoot,work.image)" class="single-work-card-image"/>
+            <img :src="getImageUrl(workData.workRoot,work.image)" class="single-work-card-image" v-if="work.image"/>
+            <div class="single-work-video-container" v-if="work.video" v-html="work.video"></div>
             <v-card-title>
               <div class="details">
             <h3 v-if="work.workTitle !== null">
-              <span class="bold">Title:</span> <span class="title-content" v-html="work.workTitle"></span>
+              <!-- <span class="bold">Title:</span> --><span class="title-content" v-html="work.workTitle"></span>
             </h3>
             <div v-if="work.medium !== null">
-              <span class="bold">Medium:</span> {{work.medium}}
+              <!-- <span class="bold">Medium:</span>  -->{{work.medium}}
             </div>
             <div v-if="work.size">
-              <span class="bold">Size:</span> {{work.size}}
+              <!-- <span class="bold">Size:</span>  -->{{work.size}}
             </div>
             <div v-if="work.date">
-              <span class="bold">Date:</span> {{workData.date | dateFormat}}
+              <!-- <span class="bold">Date:</span>  -->{{workData.date | dateFormat}}
             </div>
             <div v-if="work.details !== null">
-              <span class="bold">Details:</span> <span v-html="work.details"></span>
+              <!-- <span class="bold">Details:</span>  --><span v-html="work.details"></span>
             </div>
           </div>
             </v-card-title>
@@ -37,7 +39,7 @@
 <script>
   import moment from 'moment'
   // import axios from 'axios'
-  import works from '@/assets/sfw-works.json'
+  import works from '@/assets/works.json'
 
   export default {
     name: 'work',

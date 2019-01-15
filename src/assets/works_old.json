@@ -1,0 +1,84 @@
+,
+	{
+		"seriesTitle": 	"Village [book]",
+		"workRoot": "village",
+		"indexWork": "villagemain.jpg",
+		"seriesNotes": null,
+		"artistsStatement": null,
+		"date": 			"2009-10-01",
+		"artistsStatement": null,
+		"works": [
+			{
+				"id":		1,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"village001.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		2,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"014.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		3,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"020.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		4,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"023.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		5,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"033.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		6,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"051.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		7,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"053.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			},
+			{
+				"id":		8,
+				"workTitle":	"Untitled",
+				"medium":	null,
+				"size": 	null,
+				"image":	"064.jpg",
+				"video":	null,
+				"details":	"Digital proof"
+			}
+		]
+	}

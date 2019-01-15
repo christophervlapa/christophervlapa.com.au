@@ -3,6 +3,7 @@
 		<v-layout row wrap>
 			<div class="cv">
 				<h1>Curriculum Vitae</h1>
+				<br>
 				<h2>Education</h2> 
 				<p>2012<br/>
 				 Bachelor of Visual Arts Honours First Class (Photomedia), Sydney University, Rozelle, Sydney, NSW Australia</p>  

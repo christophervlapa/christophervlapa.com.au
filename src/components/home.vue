@@ -22,7 +22,7 @@
 <script>
   import moment from 'moment'
   // import axios from 'axios'
-  import works from '@/assets/sfw-works.json'
+  import works from '@/assets/works.json'
 
   export default {
     name: 'home',

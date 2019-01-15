@@ -1,7 +1,9 @@
 <template>
 	<v-container>
 		<v-layout row wrap>
-			<div class="cv">
+			<div class="contact">
+				<h1>Contact</h1>
+				<br>
 				<p>email: contact@christophervlapa.com.au</p>
 				<p>instagram: chrisvlapa</p>
 			</div>

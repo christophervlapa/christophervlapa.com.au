@@ -39,12 +39,12 @@
       </v-list-group>
 
       <v-list-tile
-      @click="" to="curriculumvitae">
+      @click="" to="/curriculumvitae">
         <v-list-tile-title>CURRICULUM VITAE</v-list-tile-title>
       </v-list-tile>
 
       <v-list-tile
-      @click="">
+      @click="" to="/contact">
         <v-list-tile-title>CONTACT</v-list-tile-title>
       </v-list-tile>
       </v-list>
@@ -62,7 +62,7 @@
     </v-content>
   
     <v-footer :fixed="fixed" app>
-      <span>&copy; 2017</span>
+      <span>&nbsp;&copy; 2019</span>
     </v-footer>
   </v-app>
 </template>
@@ -70,7 +70,7 @@
 <script>
 import home from './components/home'
 import singleWork from './components/singleWork'
-import works from './assets/sfw-works.json'
+import works from './assets/works.json'
 
 export default {
   name: 'App',
