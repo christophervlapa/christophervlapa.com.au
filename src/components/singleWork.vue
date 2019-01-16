@@ -39,7 +39,7 @@
 <script>
   import moment from 'moment'
   // import axios from 'axios'
-  import works from '@/assets/works.json'
+  import works from '../../public/works/works.json'
 
   export default {
     name: 'work',
@@ -49,8 +49,8 @@
       }
     },
     created: function () {
-      console.log('data: ',this.worksData)
-      console.log('data: ',this.$route.params.workRoot)
+      // console.log('data: ',this.worksData)
+      // console.log('data: ',this.$route.params.workRoot)
     },
     filters: {
       dateFormat: (date) => {
@@ -59,12 +59,12 @@
     },
     methods: {
       getImageUrl(imagePath,imageName){
-        console.log(`../assets/works/` + imagePath + '/' + imageName);
-        return require('../assets/works/' + imagePath + '/' + imageName);
+        // console.log(`../assets/works/` + imagePath + '/' + imageName);
+        return '/works/' + imagePath + '/' + imageName;
 
       },
       workData(){ 
-        console.log('single works call');
+        // console.log('single works call');
           return this.worksData.filter(work => {
             return work.workRoot.indexOf(this.$route.params.workRoot) > -1
           })

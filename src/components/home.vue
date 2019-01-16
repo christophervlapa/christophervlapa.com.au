@@ -22,7 +22,7 @@
 <script>
   import moment from 'moment'
   // import axios from 'axios'
-  import works from '@/assets/works.json'
+  import works from '../../public/works/works.json'
 
   export default {
     name: 'home',
@@ -32,7 +32,7 @@
       }
     },
     created: function () {
-      console.log('data: ',this.worksData)
+      // console.log('data: ',this.worksData)
     },
     filters: {
       dateFormat: (date) => {
@@ -41,7 +41,8 @@
     },
     methods: {
       getImageUrl(imagePath,imageName){
-        return require('../assets/works/' + imagePath + '/' + imageName);
+        // return require('../../public/works/' + imagePath + '/' + imageName);
+        return '/works/' + imagePath + '/' + imageName;
 
       }
     }
