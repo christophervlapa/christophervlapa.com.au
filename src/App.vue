@@ -58,7 +58,9 @@
       
     </v-toolbar>
     <v-content>
-      <router-view/>
+      <div class="content-container">
+        <router-view/>
+      </div>
     </v-content>
   
     <v-footer :fixed="fixed" app>
