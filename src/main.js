@@ -14,10 +14,10 @@ const isProd = process.env.NODE_ENV === 'production'
 Vue.use(VueAnalytics, {
 	id: 'UA-21067403-1',
 	router,
-	debug: {
-		enabled: !isProd,
-		sednHitTask: isProd
-	}
+	// debug: {
+	// 	enabled: !isProd,
+	// 	sednHitTask: isProd
+	// }
 })
 
 new Vue({

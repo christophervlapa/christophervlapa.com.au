@@ -2,8 +2,8 @@
   <v-container>
       <v-layout row wrap>
         <h1>Selected Works</h1>
-        <v-flex xs12 v-for="work in this.worksData">
-          <v-card flat class="index-work-card mb-3" @click="" :to="'works/'+work.workRoot">
+        <v-flex xs12 v-for="work in this.worksData" v-bind:key="work.id">
+          <v-card flat class="index-work-card mb-3" :to="'works/'+work.workRoot">
             <img :src="getImageUrl(work.workRoot,work.indexWork)" class="home-card-image"/>
             <v-card-title>
               <div>
@@ -21,18 +21,24 @@
 
 <script>
   import moment from 'moment'
-  // import axios from 'axios'
   import works from '../../public/works/works.json'
 
   export default {
     name: 'home',
     data: function() {
       return{
-        worksData: works
+        worksData: []
       }
     },
     created: function () {
-      // console.log('data: ',this.worksData)
+      // check for SFW check
+      if(this.$route.query.sfw === '1'){
+        console.log("SFWWWW",this.safeForWorksCheck());
+        this.worksData = this.safeForWorksCheck();
+      } else {
+        console.log("NSFWWWW");
+        this.worksData = works;
+      }
     },
     filters: {
       dateFormat: (date) => {
@@ -41,9 +47,15 @@
     },
     methods: {
       getImageUrl(imagePath,imageName){
-        // return require('../../public/works/' + imagePath + '/' + imageName);
         return '/works/' + imagePath + '/' + imageName;
-
+      },
+      safeForWorksCheck() {
+        // Method to return only SFW artworks
+        return works.filter(work => {
+          if(work.sfw){
+            return work;
+          }
+        })
       }
     }
   }
@@ -58,6 +70,7 @@
 .index-work-card {
   border: 1px solid #F5F5F5;
 }
+
 .home-card-image {
   width: 100%;
 }

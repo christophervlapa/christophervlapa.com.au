@@ -72,7 +72,7 @@
 <script>
 import home from './components/home'
 import singleWork from './components/singleWork'
-  import works from '../public/works/works.json'
+import works from '../public/works/works.json'
 
 export default {
   name: 'App',

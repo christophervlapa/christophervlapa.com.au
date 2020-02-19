@@ -23,18 +23,12 @@ export default new Router({
     {
       path: '/curriculumvitae',
       name: 'curriculumvitae',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "curriculumvitae" */ './views/Curriculumvitae.vue')
+      component: () => import('./views/Curriculumvitae.vue')
     },
     {
       path: '/contact',
       name: 'contact',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "contact" */ './views/Contact.vue')
+      component: () => import('./views/Contact.vue')
     }
   ]
 })
