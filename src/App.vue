@@ -5,92 +5,98 @@
       :mini-variant="miniVariant"
       :clipped="clipped"
       v-model="drawer"
-      enable-resize-watcher
+      disable-resize-watcher
       fixed
       app
     >
       <v-list>
+      <v-list-tile @click="" to="/">
+          <v-list-tile-action>
+            <v-icon>home</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-title>HOME</v-list-tile-title>
+      </v-list-tile>
+
+      <v-list-group
+        no-action
+      >
+        <v-list-tile slot="activator">
+          <v-list-tile-title>WORKS</v-list-tile-title>
+        </v-list-tile>
+
         <v-list-tile
           value="true"
-          v-for="(item, i) in items"
+          v-for="(work, i) in worksData"
           :key="i"
+          @click=""
+          :to="'/works/'+work.workRoot"
         >
-          <v-list-tile-action>
-            <v-icon v-html="item.icon"></v-icon>
-          </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title v-text="item.title"></v-list-tile-title>
+            <v-list-tile-title v-text="work.seriesTitle"></v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
+
+      </v-list-group>
+
+      <v-list-tile
+      @click="" to="/curriculumvitae">
+        <v-list-tile-title>CURRICULUM VITAE</v-list-tile-title>
+      </v-list-tile>
+
+      <v-list-tile
+      @click="" to="/contact">
+        <v-list-tile-title>CONTACT</v-list-tile-title>
+      </v-list-tile>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar
       app
       :clipped-left="clipped"
     >
-      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-btn icon @click.stop="miniVariant = !miniVariant">
-        <v-icon v-html="miniVariant ? 'chevron_right' : 'chevron_left'"></v-icon>
-      </v-btn>
-      <v-btn icon @click.stop="clipped = !clipped">
-        <v-icon>web</v-icon>
-      </v-btn>
-      <v-btn icon @click.stop="fixed = !fixed">
-        <v-icon>remove</v-icon>
-      </v-btn>
-      <v-toolbar-title v-text="title"></v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn icon @click.stop="rightDrawer = !rightDrawer">
-        <v-icon>menu</v-icon>
-      </v-btn>
+      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>    
+      <img src="@/assets/signature.svg" class="headerSignature" alt="christopher v lapa signature" viewBox="0 0 100 100" preserveAspectRatio>
+      
     </v-toolbar>
     <v-content>
-      <HelloWorld/>
+      <div class="content-container">
+        <router-view/>
+      </div>
     </v-content>
-    <v-navigation-drawer
-      temporary
-      :right="right"
-      v-model="rightDrawer"
-      fixed
-      app
-    >
-      <v-list>
-        <v-list-tile @click="right = !right">
-          <v-list-tile-action>
-            <v-icon>compare_arrows</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-title>Switch drawer (click me)</v-list-tile-title>
-        </v-list-tile>
-      </v-list>
-    </v-navigation-drawer>
+  
     <v-footer :fixed="fixed" app>
-      <span>&copy; 2017</span>
+      <span>&nbsp;&copy; 2020</span>
     </v-footer>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import home from './components/home'
+import singleWork from './components/singleWork'
+import works from '../public/works/works.json'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    home
   },
   data () {
     return {
       clipped: false,
-      drawer: true,
+      drawer: false,
       fixed: false,
-      items: [{
-        icon: 'bubble_chart',
-        title: 'TEST'
-      }],
+      worksData: works,
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: './assets/signature.svg'
     }
   }
 }
 </script>
+<style type="text/css">
+  .headerSignature {
+    height: 80%;
+    margin-left: -42px;
+    flex: 1;
+  }
+</style>
