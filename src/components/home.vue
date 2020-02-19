@@ -32,13 +32,10 @@
     },
     created: function () {
       // check for SFW check
-      if(this.$route.query.sfw === '1'){
-        console.log("SFWWWW",this.safeForWorksCheck());
-        this.worksData = this.safeForWorksCheck();
-      } else {
-        console.log("NSFWWWW");
-        this.worksData = works;
-      }
+      // parseInt used as we only want a 1 or nothing
+      // So stuff like )); alert('xss') passes by
+      console.log("parse ",parseInt(this.$route.query.sfw))
+      this.worksData = (parseInt(this.$route.query.sfw) === 1) ? this.safeForWorksCheck() : works;
     },
     filters: {
       dateFormat: (date) => {

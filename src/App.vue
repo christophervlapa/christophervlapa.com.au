@@ -64,7 +64,7 @@
     </v-content>
   
     <v-footer :fixed="fixed" app>
-      <span>&nbsp;&copy; 2019</span>
+      <span>&nbsp;&copy; 2020</span>
     </v-footer>
   </v-app>
 </template>
