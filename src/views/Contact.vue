@@ -1,4 +1,4 @@
-<template>
+<v-template>
 	<v-container>
 		<v-layout row wrap>
 			<div class="contact">

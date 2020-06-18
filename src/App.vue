@@ -10,7 +10,7 @@
       app
     >
       <v-list>
-      <v-list-tile @click="" to="/">
+      <v-list-tile to="/">
           <v-list-tile-action>
             <v-icon>home</v-icon>
           </v-list-tile-action>
@@ -28,7 +28,6 @@
           value="true"
           v-for="(work, i) in worksData"
           :key="i"
-          @click=""
           :to="'/works/'+work.workRoot"
         >
           <v-list-tile-content>
@@ -39,12 +38,12 @@
       </v-list-group>
 
       <v-list-tile
-      @click="" to="/curriculumvitae">
+      to="/curriculumvitae">
         <v-list-tile-title>CURRICULUM VITAE</v-list-tile-title>
       </v-list-tile>
 
       <v-list-tile
-      @click="" to="/contact">
+      to="/contact">
         <v-list-tile-title>CONTACT</v-list-tile-title>
       </v-list-tile>
       </v-list>
@@ -71,7 +70,7 @@
 
 <script>
 import home from './components/home'
-import singleWork from './components/singleWork'
+// import singleWork from './components/singleWork'
 import works from '../public/works/works.json'
 
 export default {

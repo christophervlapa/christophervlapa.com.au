@@ -34,8 +34,8 @@
       // check for SFW check
       // parseInt used as we only want a 1 or nothing
       // So stuff like )); alert('xss') passes by
-      console.log("parse ",parseInt(this.$route.query.sfw))
-      this.worksData = (parseInt(this.$route.query.sfw) === 1) ? this.safeForWorksCheck() : works;
+      // console.log("parse ",parseInt(this.$route.query.sfw))
+      this.worksData = (parseInt(this.$route.query.nsfw) === 1) ? works : this.safeForWorksCheck();
     },
     filters: {
       dateFormat: (date) => {
