@@ -9,26 +9,34 @@
           <h2 v-if="workData.artistsStatement">Artist Statement</h2>
           <div class="artists-statement-content" v-html="workData.artistsStatement"></div>
           <v-card flat class="index-work-card mb-3" v-for="(work, i) in workData.works" v-bind:key="i">
-            <img :src="getImageUrl(workData.workRoot,work.image)" class="single-work-card-image" v-if="work.image"/>
-            <div class="single-work-video-container" v-if="work.video" v-html="work.video"></div>
+            <div class="single-work-image-container" v-if="work.image !== null">
+              <img :src="getAssetUrl(workData.workRoot,work.image)" class="single-work-card-image"/>
+            </div>
+            <div class="single-work-video-container" v-if="work.video !== null">
+              <video controls loop autoplay class="video__item">
+                  <source :src="getAssetUrl(workData.workRoot,work.video)" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>            
+            </div>
+
             <v-card-title>
               <div class="details">
-            <h3 v-if="work.workTitle !== null">
-              <span class="title-content" v-html="work.workTitle"></span>
-            </h3>
-            <div v-if="work.medium !== null">
-              {{work.medium}}
-            </div>
-            <div v-if="work.size">
-              {{work.size}}
-            </div>
-            <div v-if="work.date">
-              {{workData.date | dateFormat}}
-            </div>
-            <div v-if="work.details !== null">
-              <span v-html="work.details"></span>
-            </div>
-          </div>
+                <h3 v-if="work.workTitle !== null">
+                  <span class="title-content" v-html="work.workTitle"></span>
+                </h3>
+                <div v-if="work.medium !== null">
+                  {{work.medium}}
+                </div>
+                <div v-if="work.size">
+                  {{work.size}}
+                </div>
+                <div v-if="work.date">
+                  {{workData.date | dateFormat}}
+                </div>
+                <div v-if="work.details !== null">
+                  <span v-html="work.details"></span>
+                </div>
+              </div>
             </v-card-title>
           </v-card>
         </v-flex>
@@ -54,7 +62,7 @@
       }
     },
     methods: {
-      getImageUrl(imagePath,imageName){
+      getAssetUrl(imagePath,imageName){
         return '/works/' + imagePath + '/' + imageName;
 
       },
@@ -81,6 +89,14 @@
 
 .italic {
   font-style: italic;
+}
+
+.single-work-video-container {
+  padding-bottom: 0;
+}
+
+video {
+  max-width: 100%;
 }
 </style>
 

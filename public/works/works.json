@@ -1,5 +1,26 @@
 [
 	{
+		"seriesTitle": 	"Inside Looking Out v2.3",
+		"workRoot": "insidelookingout",
+		"indexWork": "inside-looking-out001.mp4",
+		"indexWorkType": "video",
+		"seriesNotes": "<a href='https://www.christophervlapa.com.au/insidelookingout/' target='_blank'>https://www.christophervlapa.com.au/insidelookingout/</a> (Available on mobile devices only) <br> Internet Art web based work, exporing our relationship between digital identity and personal idenity.",
+		"artistsStatement": "<p>In 2020 Guy Debord's Spectacle has become our everyday. As we stare into our phones they stare back into us, wringing every drop of personal information possible about us and delivering it back to those that control the flow of data. While taking and making our own image with these devices, positioning the camera and ourselves just so we capture our image; but in this act also captured is our location, the precise angle of the device, the orientation, time, date... right down to the unique pattern of dust on the camera lens: an ocean of data from a passing moment.</p><p>The selfie taken and the data generated along with it capture who we are: one visually and one as a collection of data points, and abstraction in metrics of the concrete. Rarely do we get to see the later, our data is hidden behind the curtain of technology. We know it's there, slowly painting an increasingly detailed portrait of ourselves on a server, in a rack of servers, in a warehouse filled with racks of servers that we have no access to. This is the pact we make with technology: we take what we need from technology while it takes what it wants from us as data to be bought and sold.</p><p>Inside Looking Out has this dichotomous equation in its DNA; however it inverts the relationship between the device, ourselves and the generated data. No longer are we making an image of ourselves, but watching a stranger perform as we would watch ourselves perform for the camera, searching for the right angle. During this process a partial glimpse of the hidden digital portrait is revealed with the image, becoming a unified representation of viewer and artwork, at the same time unfamiliar yet intimate the subject follows our gaze. As the data becomes apparent the viewer sees their true role as the focal character of this artwork, and the person the control onscreen shifts to deuterogamist.</p><p>Central to this work is the user’s interaction as they hold the work on their own device in their hand, as part of their personal space rather than on a gallery wall.</p><p>Part of an ongoing series of digital works, Inside Looking Out prompts the viewer to consider themselves and their devices in ways not seen before. To question their relationships with the digital world and the data that is generated and shared constantly from these devices, either by deliberately or as a background process.</p><p>The first iteration of works in this series will only be available as mobile digital experiences for viewers to interact with when and where they choose in contrast to having to visit a gallery space, this in turn mirrors the way many experience the world in the now: through the screen of a device.</p>",
+		"date": "2020-01-01",
+		"sfw": true,
+		"works": [
+			{
+				"id":		1,
+				"workTitle": "Inside Looking Out",
+				"medium":	"Web based multimedia: HTML, JavaScript, ES6, CSS",
+				"size": 	null,
+				"image":	null,
+				"video":	"inside-looking-out001.mp4",
+				"details":	"<a href='https://www.christophervlapa.com.au/insidelookingout/' target='_blank'>https://www.christophervlapa.com.au/insidelookingout/</a> (Available on mobile devices only) <br> Web based, mobile device specific work built in JavaScript, HTML and CSS, with 45 still images for animations."
+			}
+		]
+	},
+	{
 		"seriesTitle": 	"Secure Connection",
 		"workRoot": "secureconnection",
 		"indexWork": "secureconnection008.png",

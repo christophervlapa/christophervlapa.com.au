@@ -4,7 +4,15 @@
         <h1>Selected Works</h1>
         <v-flex xs12 v-for="work in this.worksData" v-bind:key="work.id">
           <v-card flat class="index-work-card mb-3" :to="'works/'+work.workRoot">
-            <img :src="getImageUrl(work.workRoot,work.indexWork)" class="home-card-image"/>
+            <div class="image-container" v-if="work.indexWorkType !== 'video'">
+              <img :src="getAssetUrl(work.workRoot,work.indexWork)" class="home-card-image"/>
+            </div>
+            <div class="video-container" v-if="work.indexWorkType === 'video'">
+              <video controls loop autoplay class="video__item">
+                  <source :src="getAssetUrl(work.workRoot,work.indexWork)" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>            
+            </div>
             <v-card-title>
               <div>
               <h3 class="headline mb-0">{{work.seriesTitle}}</h3>
@@ -43,7 +51,7 @@
       }
     },
     methods: {
-      getImageUrl(imagePath,imageName){
+      getAssetUrl(imagePath,imageName){
         return '/works/' + imagePath + '/' + imageName;
       },
       safeForWorksCheck() {
@@ -75,5 +83,10 @@
 .italic {
   font-style: italic;
 }
+
+video {
+  max-width: 100%;
+}
+
 </style>
 
